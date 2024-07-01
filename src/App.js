@@ -17,7 +17,8 @@ function App() {
     <Router>
      <div>
       <Routes>
-        <Route exact path="/" element={<Home/>} />
+      <Route exact path="/" element={<Home/>} />
+        <Route exact path="/Full_Stack_React_Project" element={<Home/>} />
         <Route exact path="/login" element={<Login/>} />
         <Route exact path='/signup' element={<Signup/>}/>
       </Routes>
